@@ -1,4 +1,4 @@
-
+#importing random
 import random
 A = ['program', 'expert', 'math', 'umar'
      'python', 'compute', 'science', 'subject',
@@ -7,13 +7,18 @@ A = ['program', 'expert', 'math', 'umar'
 word = random.choice(A)
 turns = 6
 currentletter = ''
+#welcoming the user by asking his/her name
 name = input("What is your name?")
 print("Hello, " + name)
+#checking if turns more than zero
 while turns > 0:
+	#counter
 	failed = 0
 	for char in word: 
+		#see if character exist
 		if char in currentletter: 
-			print(char) 
+			print(char)
+		#if not print _ and increased failed counter
 		else:
 			print("_",)
 			failed += 1
@@ -24,12 +29,14 @@ while turns > 0:
 		
 	# Ask the user to guess a letter 
 	letter = str(input("Guess a letter: "))
-	#set the playerguess letter to currentletter 
+	#Set the playerguess letter to currentletter 
 	currentletter += letter
-	# Check to see if that letter is not in the Answer	
+	# Check to see if that letter is not in the word	
 	if letter not in word:
 		turns -= 1
 		print("BAD GUESS!")
+		#how many turns are left
 		print("You have", + turns, 'more turns!')
+		#if turns equal to zero then print
 		if turns == 0:
 			print("You Lose the game")
