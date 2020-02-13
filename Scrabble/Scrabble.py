@@ -1,30 +1,30 @@
 def letter_Score(letter): 
-
-	if letter in "aeilonsrutAEILONSRUT":
+	letter = letter.lower()
+	if letter in "aeilonsrut":
 
 		return 1
 
-	elif letter in "dgDG":
+	elif letter in "dg":
 		
 		return 2
 
-	elif letter in "bcmpBCMP":
+	elif letter in "bcmp":
 
 		return 3
 
-	elif letter in "fhvwyFHVWY":
+	elif letter in "fhvwy":
 
 		return 4
 
-	elif letter in "kK":
+	elif letter in "k":
 
 		return 5
 
-	elif letter in "jxJX":
+	elif letter in "jx":
 
 		return 8
 	
-	elif letter in "qzQZ":
+	elif letter in "qz":
 
 		return 10
 
