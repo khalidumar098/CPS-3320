@@ -1,6 +1,6 @@
 #importing random
 import random
-A = ['program', 'expert', 'math', 'umar'
+A = ['program', 'expert', 'actual', 'campus'
      'python', 'compute', 'science', 'subject',
      'yahoo', 'answer']
 
