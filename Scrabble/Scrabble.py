@@ -40,6 +40,7 @@ def word_Score(word):
 	return total
 
 
+
 name = input("What is your name?")
 print("Hello, " + name)
 a = str(input("Enter a word: "))
