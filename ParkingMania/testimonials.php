@@ -80,7 +80,7 @@ sessionFunction();
         <div class="carousel-item container-fluid">
           <h2 class="testimonial-text">Reserved a spot an hour beforehand because the rates there were the lowest I found. I got there quickly and all the employees were friendly. Seemed like a very safe place and I will use them again.</h2>
           <img class="testimonial-image" src="images/a.jpg" alt="a">
-          <em>Umar, New Jersey</em>
+          <em>Aron, New Jersey</em>
         </div>
       </div>
       <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
