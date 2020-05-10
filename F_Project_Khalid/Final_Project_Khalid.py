@@ -1,3 +1,8 @@
+#Author: Muhammad Umar Khalid
+#Professor: Robert Domanski
+#Final Project: Budget Program
+#Date: 05/10/2020
+
 #Import necessary modules
 import os
 import sys
