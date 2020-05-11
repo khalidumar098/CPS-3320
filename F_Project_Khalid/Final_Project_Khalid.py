@@ -1,3 +1,9 @@
+#Author: Muhammad Umar Khaid
+#Professor: Robert Domanski
+#Budget Program
+#Date: 05/09/2020
+
+
 #Import necessary modules
 import os
 import sys
