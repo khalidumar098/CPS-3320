@@ -1,6 +1,6 @@
 #Author: Muhammad Umar Khaid
 #Professor: Robert Domanski
-#Budget Program
+#Program: Personal Budget Program
 #Date: 05/09/2020
 
 
