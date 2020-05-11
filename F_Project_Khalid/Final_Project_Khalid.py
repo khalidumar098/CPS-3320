@@ -1,4 +1,4 @@
-#Author: Muhammad Umar Khaid
+#Author: Muhammad Umar Khalid
 #Professor: Robert Domanski
 #Program: Personal Budget Program
 #Date: 05/09/2020
